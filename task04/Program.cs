@@ -1,14 +1,18 @@
-﻿
-/*
-напишите метод, которая на вход принимает число (number), 
-а на выходе выводит все чётные числа от 1 до number (включительно), 
-разделеные знаком табуляции.
-number = 5 -> 2    4
-number = 8 -> 2    4    6    8
-*/ 
+﻿/*
+максимальное из трех чисел
+*/
 Console.WriteLine("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
- for (int count = 2; count <= number; count += 2)
-        {
-            Console.Write($"{count}\t");
-        }
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число: ");
+int number2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число: ");
+int number3 = Convert.ToInt32(Console.ReadLine());
+int max = number1;
+if(number1 > number2 && number1 > number3){
+  max = number1;
+}
+    if(number2 > number1 && number3 > number2){
+      max = number3;
+    }
+    Console.WriteLine(max);
+

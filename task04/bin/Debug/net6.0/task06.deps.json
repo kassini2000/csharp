@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "task04/1.0.0": {
+      "task06/1.0.0": {
         "runtime": {
-          "task04.dll": {}
+          "task06.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "task04/1.0.0": {
+    "task06/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
