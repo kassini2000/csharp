@@ -12,5 +12,6 @@ System.Console.WriteLine(number);
 int first = number / 100;
 int last = number % 10;
 
-System.Console.WriteLine(first);
-System.Console.WriteLine(last);
+System.Console.WriteLine($"{first}{last}");
+
+
