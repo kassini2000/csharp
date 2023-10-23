@@ -15,3 +15,4 @@ int number = Convert.ToInt32(Console.ReadLine());
  {
     System.Console.WriteLine("не кратно");
  }
+
