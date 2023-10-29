@@ -14,12 +14,12 @@
 System.Console.WriteLine("Введите число: ");
 
 int number = Convert.ToInt32(Console.ReadLine());
-int number1 = number / 10000;
-int number2 = number / 1000 % 10;
+int number1 = number / 100000;
+int number2 = number / 10000 % 10;
 int number4 = number / 10 % 10;
 int number5 = number % 10;
 
-if  (number <= 10000 & number >= 9999)
+if  (number >= 100000 & number <= 10000)
 {
     if (number1 == number5 & number2 == number4)
     {
