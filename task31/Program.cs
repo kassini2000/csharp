@@ -39,7 +39,7 @@ int SummPositiveNum(int[] array)
     int result = 0;
     for(int i =0; i < array.Length; i++)
     {
-        if(array[] > 0) result += array[i];
+        if(int[] array > 0) result += array[i];
     }
     return result;
 }
@@ -48,9 +48,9 @@ int SummNegativeNum(int[] array)
     int result = 0;
     for(int i =0; i < array.Length; i++)
     {
-        if(array[] < 0) result += array[i];
+        if(int[] array < 0) result += array[i];
     }
-    return result;
+    return result; 
 }
 
 int userStart = TakeEntNum("Пожалуйста введите число начало массива: ");
@@ -63,4 +63,5 @@ PrintArray(userArray);
 int posSumm = SummPositiveNum(userArray);
 int negSumm = SummNegativeNum(userArray);
 
-System.Console.WriteLine(posSumm, negSumm);
+System.Console.WriteLine($" {posSumm}, {negSumm} ");
+
