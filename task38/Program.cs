@@ -43,7 +43,7 @@ double FindMax(double[] array)
         if(max < array[i])
         max = array[i];
     }
-    return array;
+    return max;
 }
 double FindMin(double[] array)
 {
@@ -53,7 +53,7 @@ double FindMin(double[] array)
         if(min < array[i])
         min = array[i];
     }
-    return array;
+    return min;
 }
 double CalcDifferenceBetweenMaxMin(double[] array)
 {
