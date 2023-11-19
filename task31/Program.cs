@@ -39,7 +39,7 @@ int SummPositiveNum(int[] array)
     int result = 0;
     for(int i =0; i < array.Length; i++)
     {
-        if(int[] array > 0) result += array[i];
+        if(array[i] > 0) result += array[i];
     }
     return result;
 }
@@ -48,14 +48,14 @@ int SummNegativeNum(int[] array)
     int result = 0;
     for(int i =0; i < array.Length; i++)
     {
-        if(int[] array < 0) result += array[i];
+        if(array[i] < 0) result += array[i];
     }
     return result; 
 }
 
 int userStart = TakeEntNum("Пожалуйста введите число начало массива: ");
 int userEnd = TakeEntNum("Пожалуйста введите  число  конец массива: ");
-int userSize = TakeEntNum("Пожалуйста введите размер массива: ");
+int userSize = TakeEntNum("Пожалуйста введите длину массива: ");
 
 int[] userArray = GetRandomArray(userStart, userEnd, userSize);
 PrintArray(userArray);
