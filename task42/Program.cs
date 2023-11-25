@@ -12,14 +12,14 @@ int Prompt(string message)
     return result;
 }
 
-double Converte(int number)
+string Converte(int number)
 {
-    int result = 0;
+    string result = "";
     int temp = 0;
     for (int i = number; i > 0; i /=2)
     {
         temp = i % 2;
-        result = temp + result * 10;
+        result = temp + result;
     }
     return result;
 }
