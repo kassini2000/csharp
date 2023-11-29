@@ -26,6 +26,3 @@ void PrintIntRev(int n)
 }
 
 
-Console.Clear();
-int numberN = Prompt("Задайте значение N: ");
-PrintIntRev(numberN);
